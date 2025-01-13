@@ -8,7 +8,7 @@ This repository contains tools to predict the preferred patterns of cell types i
    
 2. **Theoretical Prediction**: After computing the adjacency matrix, we calculate the eigenvector corresponding to the minimal eigenvalue. This allows us to predict the preferred pattern of cell types in the array.
 
-3. **Simulation Verification**: The theoretical predictions are verified through simulations.
+3. **Verification with Simulations**: The theoretical predictions are verified through simulations.
 
 ### Key Files
 
@@ -17,9 +17,3 @@ This repository contains tools to predict the preferred patterns of cell types i
 
 - **filo_theoretical_predictions.m**: This script makes theoretical predictions for a square array of cells with long-range signaling, potentially via filopodia or paracrine signaling.
 - **filo_simulations.m**: This script runs simulations to verify the predictions made in `filo_theoretical_predictions.m`.
-
-### Summary
-
-- Theoretical predictions are made based on the adjacency matrix and the eigenvector of the minimal eigenvalue.
-- Predictions are verified using simulations.
-- Files are organized to handle both nearest/next-nearest neighbor couplings and long-range signaling scenarios.
