@@ -95,7 +95,7 @@ dv = @(t,y) vecfield(y,E,W,f,g,mu,gamma,A);
 %Take final state of the system
 yfinal = y(end,:);
 
-%Separate into vector into MapK and Notch components
+%Separate yfinal vector into MapK and Notch components
 MapK=zeros(length(yfinal)/2,1);
 Notch=zeros(length(yfinal)/2,1);
 for i=1:length(yfinal)/2
