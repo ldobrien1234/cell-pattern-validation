@@ -1,5 +1,3 @@
-# cell-pattern-validation
-
 # Cell Pattern Prediction using Theoretical and Simulation Models
 
 This repository contains tools to predict the preferred patterns of cell types in an array, based on the adjacency matrix and the minimal eigenvalue's eigenvector. The computations are done using Matlab.
