@@ -1,2 +1,4 @@
 # cell-pattern-validation
 Numerical experiments to validate our theoretical predictions about structural causes of pattern formation.
+
+To use our theory, we must compute the adjacency matrix of an array of cells. Then, after computing the minimal eigenvalue's eigenvector, we can predict the preferred pattern of cell types in the array. We use `Matlab` to perform these computations. In `nn_theoretical_predictions.m` we make a theoretical prediction about a square array of cells with nearest and next-nearest neighbors couplings. The prediction is verified with simulations in `nn_simulations.m`. Similarly, we make theoretical predictions about a square array of cells with long range signaling (perhaps via filopodia or paracrine signaling) in `filo_theoretical_simulations`. Again, our predictions are verified with simulations in `filo_simulations`.
