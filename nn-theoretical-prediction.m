@@ -7,7 +7,7 @@ clear
 
 
 %dimension of cell array
-p=5;
+p=16;
 
 %initialize adjacency matrix
 A=zeros(p^2,p^2);
