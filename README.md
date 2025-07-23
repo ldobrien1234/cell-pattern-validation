@@ -1,6 +1,6 @@
 # Cell Pattern Prediction using Theoretical and Simulation Models
 
-This repository contains tools to predict the preferred patterns of cell types in an array based on the adjacency matrix and the minimal eigenvalue's eigenvector. The tools were developed using the theory from [O'Brien and Dawes (2025)][https://pubmed.ncbi.nlm.nih.gov/40060045/] The computations are done using Matlab.
+This repository contains tools to predict the preferred patterns of cell types in an array based on the adjacency matrix and the minimal eigenvalue's eigenvector. The tools were developed using the theory from [O'Brien and Dawes (2025)](https://pubmed.ncbi.nlm.nih.gov/40060045/). The computations are done using Matlab.
 
 ### Overview
 
